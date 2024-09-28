@@ -177,9 +177,9 @@ Bots & Fake Accounts: Investors want to know if the platform is crowded with fak
 Your Task: Identify users (potential bots) who have liked every single photo on the site, as this is not typically possible for a normal user.*/
 
 
-//Queries:
+/*Queries:*/
 
-#A (MARKETING ANALYSIS)
+/*A (MARKETING ANALYSIS)*/
 
 /* 1. Find the 5 oldest of the Instagram from the database provided */
 SELECT username, created_at FROM users
@@ -215,7 +215,7 @@ GROUP BY day_of_the_week
 ORDER BY total DESC
 LIMIT 2;
 
-#B (INVESTOR METRICES)
+/*B (INVESTOR METRICES)*/
 
 /* 1. a) Calculating the average number of posts per user */
 SELECT COUNT(id) AS total_posts, 
