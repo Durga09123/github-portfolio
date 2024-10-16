@@ -1,4 +1,8 @@
--- Data Cleaning
+
+-- SQL Project - Data Cleaning
+
+-- https://www.kaggle.com/datasets/swaptr/layoffs-2022
+
 
 select * from layoffs;
 
@@ -6,6 +10,8 @@ select * from layoffs;
 -- 2. Standardize the data ( if there are issues in data inspelling or something like that we have to standarize it)
 -- 3. Null Values or Blank Values 
 -- 4. Remove any columns or rows 
+
+--
 
 create table layoffs_staging like layoffs;
 
